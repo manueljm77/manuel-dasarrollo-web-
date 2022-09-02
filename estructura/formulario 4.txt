@@ -1,0 +1,40 @@
+<body>
+    <header>
+        <h1> ENCABEZADO NIVEL1 </1>
+            <nav>
+                <a href="https://www.google.com">Soy un link</a>
+                <a href="https://www.google.com">Soy un link</a>
+                <a href="https://www.google.com">Soy un link</a>
+                <a href="https://www.google.com">Soy un link</a>
+            </nav>
+    </header>
+    <div>
+        <section>
+            <h1>Encabezado nivel2 </h1>
+            <p> Aqui va el primer texto del primer <strong> parrafo</strong> </p>
+            <p> Aaqui va el texto del segundo parrafo </p>
+        </section>
+        <aside>
+            <h1> Apartado </h1>
+            <form>
+                <label for="">Opción 1</label>
+                <input name="r" type="checkbox"><br>
+                <label for="">Opción 2</label>
+                <input name="r" type="checkbox"><br>
+                <label for="">Opción 3</label>
+                <input name="r" type="checkbox"><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <p>Seccion de informacion de contacto, de derechos de autor, ect</p>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
