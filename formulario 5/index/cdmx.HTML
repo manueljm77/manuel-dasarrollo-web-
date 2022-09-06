@@ -1,6 +1,37 @@
-<!DOCTYPE html>
+<!DOCTYPE html>zz
 <html lang="en">
 <head>
+    
+    <style>
+        .grid-container {
+            display: grid;
+            gap: 10px; 
+            background-color: #2196F3 ;
+            padding: 10px;
+        }
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            font-size: 30px;
+        }
+        .item1 {
+            grid-column: 1 / span 3;
+            grid-row: 1;
+        }
+        .item2 {
+            grid-column: 1;
+            grid-row: 2/ span 2;
+        }
+        .item3 {
+            grid-column: 2 / span 2;
+            grid-row: 5/ span 5;
+        }
+        .item4 {
+            grid-column: 2 / span 2;
+            grid-row: 4;
+        }
+    </style>
+        
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +42,8 @@
   <header>
     <!-- imagen logo --> 
     <div class="logo-cdmx">
-        <img src="img/logo.svg" alt="Gobierno de la ciudad de Mexico">
+        <img src="C:\Nueva carpeta\manuel-dasarrollo-web-\formulario 5\imagenes\logo2.svg" whidth=50px height="50px"
+        alt="Gobierno de la ciudad de Mexico">
     </div>
     <!-- nav -->
     <nav>
@@ -21,20 +53,18 @@
         <a href="">Gobierno</a>
     </nav>
 </header>  
-<div>
-    <section class="img-angel">
+<div style="background-color: rgb(255, 255, 255); display: flex;">
+    <div style="background-color: aqua; padding-top: 0px;width: 0px; height:50px ; ">
+        <section class="img-angel">
         <div class="hero-vector">
-            <img src="img/hero-vector.svg" alt="">
+            <img src="C:\Nueva carpeta\manuel-dasarrollo-web-\formulario 5\imagenes\hero.jpg" alt="">
         </div>
         <div>
-            <h1 class="titulo">
-                <span class="sapn1">APRENDE A PROGRAMAR</span>
-                <span class="span2">EN LAS</span>
-                <span class="span3"> ESCUELAS <br>
-                    <span class="span3-1">DE CÓDIGO</span>
-                </span>
-                <span class="sapn4">DE LA CDMX</span><br>
-                
+            <h1 class="titulo"grid-container" style="width: 20%;">
+                <span class="grid-item item1" style="font-size:40px;">Aprende a programar</span>
+                <span class="grid-item item2">En las</span>
+                <span class="grid-item item3" style="font-size:50px; font-weight:bold;">Escuelas <br> de código</span>
+                <span class="grid-item item4">De la cdmx</span>
                 
             </h1>
         </div>    
