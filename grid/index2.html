@@ -7,20 +7,20 @@
         .grid-container {
             display: grid ;
             position: absolute;
-            top: 20%;
-            bottom: 0%;
+            top: 10%;
+            bottom: 20%;
             right: 0%;
             left: 20%;
             gap: 10px; 
             
-            padding: 10px;
-            width: 20%;
-            height: 20%;
+            padding: 30px;
+            width: 30%;
+            height: 6%;
 
         }
         .grid-item {
             
-            padding: 20px;
+            padding: 60px;
             font-size: 40px;
             
         }
@@ -32,10 +32,15 @@
         .item2 {
             grid-column: 1;
             grid-row: 2/ span 2;
+            padding: 10%;
+            
+            gap: 10px;  
         }
         .item3 {
             grid-column: 2 / span 2;
             grid-row: 2/ span 2;
+            
+            gap: 20px; 
             
         }
         .item4 {
@@ -43,49 +48,53 @@
             grid-row: 4;
         
         }
+    
+        .grid-item{
+
+
+
+
+        }
+    
     </style>
 </head>
 
 <body>
+    <header>
     <div class="logo-cdmx">
-        <img src= "C:\Users\jmjm_\OneDrive\Escritorio\grid\imagenes\logo2.svg"  width="15%" height="15%;"
+        <img src= "imagenes\logo2.svg"  width="10%" height="15%;"
         padingg-top="50%;" alt="Gobierno de la ciudad de Mexico" >
-    <!-- nav -->
+    </div>
+    
+        
         <nav>
         <a href="">Residentes</a>
         <a href="">Negocios</a>
         <a href="">Visitantes</a>
         <a href="">Gobierno</a>
-    </nav>
-    </div>
+    </nav><!-- nav -->
+    </header>
     
-
-        <div style="background-color: rgb(199, 188, 191); display: flex;">
-            <div style="background-color: rgb(248, 248, 248); display: flex 30%;">
-                <section class="img-angel">
-                    <div class="hero-vector" >
-                        <img src= "imagenes\hero.jpg"  > 
-                </div>
-    <div >
-            <h1 class="grid-container" style="width: 50%; display:flex 50%;>
-                <span class="grid-item item1" style="font-size:60px;">Aprende a programar</span>
-                <span class="grid-item item2"style=font-italic >En las </span>
-                <span class="grid-item item3" style="font-size:50px; font-weight:bold;">Escuelas <br> de código</span>
-                <span class="grid-item item4">De la cdmx</span>
-            </h1>
-        </div>
+        <section class =letrero">
         
+                <section class="img-angel " width="50%" heigth="50%;">
+                    <div class="hero-vector" >
+                    <img src= "imagenes\hero.jpg"  > 
+                </div>
+    <div  class="grid">
+            
+                <span class="grid-item item1" ">Aprende a programar</span>
+                <span class="grid-item item2">En las </span>
+                <span class="grid-item item3" >Escuelas <br> de código</span>
+                <span class="grid-item item4">De la cdmx</span>
+    </div>
+    </section>
+    <body>
 
-    
-</div> 
-</body>
-</html>
-</section>
-</div>
-
-<section class="quien">
+<footer class="quien">
     <h2>¿Quien se puede inscribir?</h2> 
     <p>Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana.</p>
     <p>*Menores de edad deberán entrar a las instalaciones acompañados de un adulto.</p>
 
-</section>
+</footer>
+</html>
